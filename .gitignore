@@ -1,17 +1,33 @@
-# Firebase config (keep private)
+# Firebase configuration (IMPORTANT - keeps your API keys private)
 firebase-config.js
+.env
 
-# IDE files
+# IDE and editor files
 .vscode/
+.idea/
 *.swp
 *.swo
+*~
 
-# OS files
+# Operating system files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Logs
+# Logs and temporary files
 *.log
-
-# Temporary files
 *.tmp
+*.temp
+
+# Build and distribution folders (if you add them later)
+dist/
+build/
+node_modules/
+
+# Backup files
+*.bak
+*.backup
